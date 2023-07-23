@@ -2,7 +2,6 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-
 }
 
 * {
@@ -33,7 +32,7 @@ html {
 }
 
 .default-background {
-    background: rgb(0 0 0 / 40%);
+    background: rgb(0, 0, 0 / 40%);
     position: absolute;
     top: 0;
     right: 0;

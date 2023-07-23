@@ -4,8 +4,14 @@ body {
 }
 
 .header {
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    /* background-color: #000;   */
 }
 
 .navbar {
@@ -64,17 +70,13 @@ body {
     margin-right: 19px;
 }
 
-.content__container {
-    max-height: 70rem;
-    min-height: 70rem;
-}
-
-.conternt-area {
+.content__item {
     position: relative;
+    height: 70rem;
 }
 
 .content__background {
-    height: 70rem;
+    height: 100%;
 }
 
 .content__background-item {
@@ -127,5 +129,35 @@ body {
 }
 
 .bottomlist__input {
+    display: flex;
+    justify-content: center;
+    margin: 2.4rem 0 0;
+}
 
+.bottomlist__des {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.bottomlist__input-email {
+    font-size: 15px;
+    padding: 15px;
+    width: 45%;
+    background: rgb(0 0 0 / 40%);
+    border: 1px solid #5f5f5f;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.bottomlist__input-btn {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 10px;
+    padding: 1.2rem 2.4rem;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(229, 9, 20, 1);
 }
